@@ -8,6 +8,16 @@ import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 
 
+const ProjectCard = ({name, description, tags, index, image, source_code_link}) => {
+return (
+  <motion.div
+  variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+  >
+  test
+  </motion.div>
+)
+}
+
 const Works = () => {
   return (
     <div>
@@ -24,6 +34,15 @@ const Works = () => {
       >
       Project Intro
       </motion.p>
+    </div>
+
+    <div className='mt-20 flex flex-wrap gap-7' >
+    {projects.map((project, index) => (
+      <ProjectCard key={`project-${index}`}
+      index={index} 
+      {...project}
+      />
+    ))}
     </div>
     </div>
   )
