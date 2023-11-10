@@ -11,7 +11,11 @@ import { fadeIn, textVariant } from '../utils/motion'
 const Works = () => {
   return (
     <div>
-    
+    <motion.div
+    variants={textVariant()}>
+    <p className={styles.sectionSubText}>My Work.</p>
+    <h2 className={styles.sectionHeadText}>Projects.</h2>
+    </motion.div>
     </div>
   )
 }
