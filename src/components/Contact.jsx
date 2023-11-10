@@ -38,7 +38,23 @@ const Contact = () => {
         message: form.message,
       },
       "HSbj1BLG1FefMagUN"
-    );
+    )
+    .then(() => {
+      setLoading(false)
+      alert("Thank you, I'll get back to you as soon as possible.")
+       setForm({
+      name: "",
+      email: "",
+      message: ""
+    })},
+    (err) => {
+      setLoading(false)
+      console.log(err)
+
+      alert("Something went wrong!")
+    }
+    )
+   
   };
 
   return (
