@@ -29,6 +29,11 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import WorkoutAppHomePage from "./WorkoutAppHomePage.png"
+import FFHomePage from "./FFHomePage.png"
+import FantasyFHomePage from "./FantasyFHomePage.png"
+import GeneralAssemblyLogo from "./GeneralAssemblyLogo.png"
+import ApolloMarketing from "./ApolloMarketing.jpg"
 
 export {
   logo,
@@ -59,4 +64,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  WorkoutAppHomePage,
+  FFHomePage,
+  FantasyFHomePage,
+  GeneralAssemblyLogo,
+  ApolloMarketing
 };

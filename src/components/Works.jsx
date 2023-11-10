@@ -75,7 +75,7 @@ const Works = () => {
       variants={fadeIn("", "", 0.1, 1)}
       className="mt-3 text-secondary text=[17px] max-w-3xl leading-[30px]"
       >
-      Project Intro
+      A collection of my projects to date, including the workout app I have spent most of my time on post course.
       </motion.p>
     </div>
 
