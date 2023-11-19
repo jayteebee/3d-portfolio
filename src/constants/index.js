@@ -16,7 +16,8 @@ import {
     FFHomePage,
     FantasyFHomePage,
     GeneralAssemblyLogo,
-    ApolloMarketing
+    ApolloMarketing,
+    theIto
   } from "../assets";
   
   export const navLinks = [
@@ -107,7 +108,7 @@ import {
     },
     {
       title: "Founder",
-      company_name: "Apollo Marketing agency",
+      company_name: "Apollo Marketing Agency",
       icon: ApolloMarketing,
       iconBg: "#E6DEDD",
       date: "April 2021 - October 2022",
@@ -115,6 +116,18 @@ import {
         "Built and led a marketing agency, winning 6 clients and employing a small contracted team to deliver high-impact marketing strategies for fitness clientele.",
         "Utilised analytical and problem-solving skills to identify and meet client needs.",
         "Streamlined operations by developing efficient systems and processes, demonstrating aptitude for automation and continuous improvement."
+      ],
+    },
+    {
+      title: "Digital Marketing Manager",
+      company_name: "The Innovation Technology Office",
+      icon: theIto,
+      iconBg: "#E6DEDD",
+      date: "March 2020 to March 2021",
+      points: [
+"Identifying client requirements and developing the most suited marketing solutions",
+        "Carried out cold calling and networking events for front end pipeline growth.",
+        "Liaising between departments to ensure successful delivery of campaigns."
       ],
     },
   ];

@@ -34,6 +34,7 @@ import FFHomePage from "./FFHomePage.png"
 import FantasyFHomePage from "./FantasyFHomePage.png"
 import GeneralAssemblyLogo from "./GeneralAssemblyLogo.png"
 import ApolloMarketing from "./ApolloMarketing.jpg"
+import theIto from "./theito.png"
 
 export {
   logo,
@@ -68,5 +69,6 @@ export {
   FFHomePage,
   FantasyFHomePage,
   GeneralAssemblyLogo,
-  ApolloMarketing
+  ApolloMarketing,
+  theIto
 };
