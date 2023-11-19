@@ -154,6 +154,7 @@ import {
       ],
       image: WorkoutAppHomePage,
       source_code_link: "https://github.com/jayteebee/workout-app-fe",
+      deployed_link: "https://workout-app-fe-five.vercel.app/"
     },
     {
       name: "Fantasy Finance",
@@ -175,6 +176,8 @@ import {
       ],
       image: FantasyFHomePage,
       source_code_link: "https://github.com/jayteebee/fantasyFinance/blob/main/README.md",
+      deployed_link: "https://fantasy-finance-front-end.vercel.app/"
+
     },
     {
       name: "Football Friends",
@@ -196,6 +199,8 @@ import {
       ],
       image: FFHomePage,
       source_code_link: "https://github.com/jayteebee/Football-Friends/blob/JB-Dev/completeREADME.md",
+      deployed_link: "https://football-friends.vercel.app/"
+
     },
   ];
   
