@@ -17,7 +17,8 @@ import {
     FantasyFHomePage,
     GeneralAssemblyLogo,
     ApolloMarketing,
-    theIto
+    theIto,
+    seatLogo
   } from "../assets";
   
   export const navLinks = [
@@ -88,7 +89,7 @@ import {
       icon: threejs,
     },
     {
-      name: "git",
+      name: "Git",
       icon: git,
     },
   ];
@@ -128,6 +129,18 @@ import {
 "Identifying client requirements and developing the most suited marketing solutions",
         "Carried out cold calling and networking events for front end pipeline growth.",
         "Liaising between departments to ensure successful delivery of campaigns."
+      ],
+    },
+    {
+      title: "New and Used Car Sales Executive",
+      company_name: "Bristol Street Motors SEAT",
+      icon: seatLogo,
+      iconBg: "#E6DEDD",
+      date: "September 2018 to November 2019",
+      points: [
+"Prospected customers through email, telephone, or when they walked onto the forecourt.",
+        "Organised my sales pipeline, delivering award winning customer service (being acknowledged by the CEO for this)",
+        "I developed my sales acumen, organisation, pressure handling and problem-solving abilities."
       ],
     },
   ];
