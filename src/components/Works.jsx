@@ -8,7 +8,7 @@ import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 
 
-const ProjectCard = ({name, description, tags, index, image, source_code_link}) => {
+const ProjectCard = ({name, description, tags, index, image, source_code_link, deployed_link}) => {
 return (
   <motion.div
   variants={fadeIn("up", "spring", index * 0.5, 0.75)}
@@ -21,7 +21,10 @@ return (
   }}
   className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
   >
-  <div className='relative w-full h-[230px]'>
+  <div className='relative w-full h-[230px] cursor-pointer'
+  onClick={() => window.open(deployed_link, "_blank")}
+
+  >
     <img src={image}
     alt={name}
     className="w-full h-full object-cover rounded-2xl"
