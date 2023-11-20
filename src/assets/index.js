@@ -36,7 +36,7 @@ import GeneralAssemblyLogo from "./GeneralAssemblyLogo.png"
 import ApolloMarketing from "./ApolloMarketing.jpg"
 import theIto from "./theito.png"
 import seatLogo from "./seatLogo.png"
-
+import linkedInLogo from "./linkedInLogo.png"
 
 export {
   logo,
@@ -73,5 +73,6 @@ export {
   GeneralAssemblyLogo,
   ApolloMarketing,
   theIto,
-  seatLogo
+  seatLogo,
+  linkedInLogo
 };

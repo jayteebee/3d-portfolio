@@ -18,7 +18,8 @@ import {
     GeneralAssemblyLogo,
     ApolloMarketing,
     theIto,
-    seatLogo
+    seatLogo,
+    linkedInLogo
   } from "../assets";
   
   export const navLinks = [
@@ -220,11 +221,13 @@ import {
   const contactMe = [
     {
       name: "linkedIn",
-      link: "https://www.linkedin.com/in/jethroblock/"
+      link: "https://www.linkedin.com/in/jethroblock/",
+      icon: linkedInLogo
     },
     {
       name: "GitHub",
-      link: "https://github.com/jayteebee"
+      link: "https://github.com/jayteebee",
+      icon: git
     },
   ]
   
