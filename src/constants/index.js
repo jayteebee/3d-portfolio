@@ -216,5 +216,16 @@ import {
 
     },
   ];
+
+  const contactMe = [
+    {
+      name: "linkedIn",
+      link: "https://www.linkedin.com/in/jethroblock/"
+    },
+    {
+      name: "GitHub",
+      link: "https://github.com/jayteebee"
+    },
+  ]
   
-  export { services, technologies, experiences, projects };
+  export { services, technologies, experiences, projects, contactMe };
