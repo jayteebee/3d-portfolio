@@ -47,7 +47,7 @@ import {
       icon: mobile,
     },
     {
-      title: "Front End Developer",
+      title: "Ruby On Rails Developer",
       icon: backend,
     },
     {
