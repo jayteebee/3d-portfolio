@@ -105,7 +105,7 @@ import {
       points: [
         "A 70 hour per week, 3 month intense bootcamp which served as a brilliant kickstart to my coding career.", 
         " I learned the MERN Stack, with additional time spent learning Ruby on Rails.",
-        "See Projects below for more details."
+        "See Projects above for more details."
       ],
     },
     {
