@@ -41,7 +41,7 @@ const Hero = () => {
   {/**replace this computer canvas with the video 
       {!isMobile && <ComputersCanvas />} */}
       <div className='absolute xs:bottom-15 bottom-32 w-full flex justify-center items-center'>
-      <iframe width="644" height="362" src="https://www.youtube.com/embed/oseSfjrlE_Q?si=jj6RyHJF2x7BDB1k" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="644" height="362" src="https://www.youtube.com/embed/oseSfjrlE_Q?si=jj6RyHJF2x7BDB1k" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 </div>
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
       <a href='#about'>

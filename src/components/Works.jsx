@@ -88,6 +88,11 @@ const Works = () => {
         </motion.p>
       </div>
 
+      <div>
+      <iframe width="644" height="362" className="w-full flex" src="https://www.loom.com/embed/fd7fe67e50074375a488e254368f393e?sid=6d37a034-8b73-4d9b-866f-e161fd249d82">
+      </iframe>
+      </div>
+
       <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
