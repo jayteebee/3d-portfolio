@@ -85,12 +85,18 @@ const Works = () => {
         >
           A collection of my projects to date, including the workout app I have
           spent most of my time on post course.
+          <br />
+          {"Below, you can find my Workout App's Walkthrough video."}
         </motion.p>
       </div>
 
       <div>
-      <iframe width="644" height="362" className="w-full flex" src="https://www.loom.com/embed/fd7fe67e50074375a488e254368f393e?sid=6d37a034-8b73-4d9b-866f-e161fd249d82">
-      </iframe>
+        <iframe
+          width="644"
+          height="362"
+          className="w-full flex"
+          src="https://www.loom.com/embed/fd7fe67e50074375a488e254368f393e?sid=dbd56ff5-1854-4349-adcc-5dd6ad60b928?hide_owner=true&hideEmbedTopBar=true"
+        ></iframe>
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
