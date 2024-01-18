@@ -1,0 +1,49 @@
+/* Base styles for mobile devices */
+.hero-video {
+    width: 100%; /* Full width on mobile devices */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute;
+    bottom: 10%; /* Positioning at the bottom */
+    left: 50%; /* Center align */
+    transform: translateX(-50%); /* Center align */
+  }
+  
+  /* Small devices (phones, 640px and up) */
+  @media (min-width: 640px) {
+    .hero-video {
+      bottom: 15%; /* Slightly higher on small devices */
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .hero-video {
+      width: 90%; /* Slightly smaller width on tablets */
+      bottom: 20%; /* Higher position on tablets */
+    }
+  }
+  
+  /* Large devices (laptops/desktops, 1024px and up) */
+  @media (min-width: 1024px) {
+    .hero-video {
+      width: 80%; /* Smaller width for larger devices */
+      bottom: 25%; /* Adjust position for visibility */
+    }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1280px and up) */
+  @media (min-width: 1280px) {
+    .hero-video {
+      width: 70%; /* Reduced width for extra large screens */
+      bottom: 30%; /* Further adjustment for positioning */
+    }
+  }
+  
+  /* Additional large screens (1440px and up) */
+  @media (min-width: 1440px) {
+    .hero-video {
+      width: 60%; /* Even smaller width for very large screens */
+      bottom: 35%; /* Increased bottom margin */
+    }
+  }
+  

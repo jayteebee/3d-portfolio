@@ -3,7 +3,8 @@ import {motion} from 'framer-motion';
 import {styles} from "../styles"
 import {ComputersCanvas} from "./canvas"
 import ReactPlayer from 'react-player/youtube'
-
+import Intro from "../assets/Introduction.mp4"
+import "../../src/hero.css"
 
 const Hero = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -43,11 +44,14 @@ const Hero = () => {
 
 {/**       <div style={{position: "relative", paddingTop: "56.25%", }}>
 <ReactPlayer width="100%" height="100%" style={{position: "absolute", top: 0, left: 0}} url="https://www.youtube.com/embed/oseSfjrlE_Q?si=jj6RyHJF2x7BDB1k"/>
-  </div> */}
-  <div className='mt-16 shadow-card absolute xs:bottom-15 bottom-32 w-full flex justify-center items-center' >
-  <ReactPlayer className=' bg-tertiary green-pink-gradient p-[1px]' style={{ aspectRatio: "16/9", position: "absolute", bottom: "20%"}} url="https://www.youtube.com/embed/oseSfjrlE_Q?si=jj6RyHJF2x7BDB1k"/>
-
 </div> 
+*/}
+
+  <div className='mt-16 shadow-card absolute xs:bottom-15 bottom-32 w-full flex justify-center items-center hero-video' >
+  <ReactPlayer className=' bg-tertiary green-pink-gradient p-[1px] ' style={{ aspectRatio: "16/9", position: "absolute", bottom: "20%"}} url="https://www.youtube.com/embed/oseSfjrlE_Q?si=jj6RyHJF2x7BDB1k"/>
+  </div> 
+
+
 
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
