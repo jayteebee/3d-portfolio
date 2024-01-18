@@ -41,7 +41,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             A Software Developer
           </p>
-          <div className="mt-4">
+          <div className="mt-4" >
           <ReactPlayer
           className=" bg-tertiary green-pink-gradient p-[1px] flex "
           url="https://www.youtube.com/embed/oseSfjrlE_Q?si=jj6RyHJF2x7BDB1k"
