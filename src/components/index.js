@@ -8,6 +8,7 @@ import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 import SideBar from './SideBar';
+import CV from './CV'
 
 export {
   Hero,
@@ -22,5 +23,6 @@ export {
   BallCanvas, 
   ComputersCanvas, 
   StarsCanvas,
-  SideBar
+  SideBar,
+  CV
 }

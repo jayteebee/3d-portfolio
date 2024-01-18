@@ -4,10 +4,17 @@ import { styles } from "../styles";
 
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
+import CV from "./CV";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
+  const [showCV, setShowCV] = useState(false)
+  
+  const toggleCVPopup = () => {
+    setShowCV(!showCV)
+  }
+
 
   return (
     <nav
@@ -41,8 +48,21 @@ const Navbar = () => {
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
-        </ul>
 
+          <li
+          className={`${
+            active === "CV" ? "text-white" : "text-secondary"
+          } hover:text-white text-[18px] font-medium cursor-pointer`}
+          onClick={() => {
+            setActive("CV");
+            toggleCVPopup()
+          }}
+          >CV
+          </li>
+        </ul>
+        {showCV && (
+          <CV closeCV={toggleCVPopup}/>
+        )}
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}

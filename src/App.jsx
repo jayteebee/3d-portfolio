@@ -1,11 +1,12 @@
-import { BrowserRouter } from "react-router-dom"
-import {About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas, SideBar} from "./components"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import {About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas, SideBar, CV} from "./components"
 
 const App = () => {
 
   return (
 <BrowserRouter>
-    <div className="relative z-0 bg-primary">
+
+<div className="relative z-0 bg-primary">
     <SideBar />
       <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
         <Navbar />
@@ -21,6 +22,7 @@ const App = () => {
         <StarsCanvas />
       </div>
     </div>
+
 </BrowserRouter>
   )
 }
