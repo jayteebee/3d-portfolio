@@ -2,6 +2,8 @@ import React, {useState, useEffect} from 'react'
 import {motion} from 'framer-motion';
 import {styles} from "../styles"
 import {ComputersCanvas} from "./canvas"
+import ReactPlayer from 'react-player/youtube'
+
 
 const Hero = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -38,13 +40,15 @@ const Hero = () => {
       </div>
 
       </div>
-  {/**replace this computer canvas with the video 
-      {!isMobile && <ComputersCanvas />} 
-*/}
 
-      <div className=' shadow-card absolute xs:bottom-15 bottom-32 w-full flex justify-center items-center '>
-      <iframe className=' bg-tertiary rounded-[20px] green-pink-gradient p-[1px] rounded-[20px]' width="644" height="362" src="https://www.youtube.com/embed/oseSfjrlE_Q?si=jj6RyHJF2x7BDB1k" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+{/**       <div style={{position: "relative", paddingTop: "56.25%", }}>
+<ReactPlayer width="100%" height="100%" style={{position: "absolute", top: 0, left: 0}} url="https://www.youtube.com/embed/oseSfjrlE_Q?si=jj6RyHJF2x7BDB1k"/>
+  </div> */}
+  <div className='mt-16 shadow-card absolute xs:bottom-15 bottom-32 w-full flex justify-center items-center' >
+  <ReactPlayer className=' bg-tertiary green-pink-gradient p-[1px]' style={{ aspectRatio: "16/9", position: "absolute", bottom: "20%"}} url="https://www.youtube.com/embed/oseSfjrlE_Q?si=jj6RyHJF2x7BDB1k"/>
+
 </div> 
+
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
       <a href='#about'>
