@@ -15,7 +15,7 @@ const CV = ({ closeCV }) => {
       <div className={`bg-white p-5 rounded-lg max-w-3xl w-full ${styles.padding}  overflow-y-auto max-h-[80vh]`}>
       <button onClick={closeCV} className={`${styles.heroSubText} float-right`} style={{zIndex: 500, position: "relative"}}>Close</button>
 
-        <Document file="src/assets/Jethro Block - CV.pdf">
+        <Document file="src/assets/JethroBlockCV.pdf">
             <Page pageNumber={1} />
             <Page pageNumber={2} />
         </Document>
