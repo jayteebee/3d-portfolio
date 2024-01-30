@@ -19,7 +19,8 @@ import {
     ApolloMarketing,
     theIto,
     seatLogo,
-    linkedInLogo
+    linkedInLogo,
+    rubyOnRails
   } from "../assets";
   
   export const navLinks = [
@@ -74,23 +75,15 @@ import {
       icon: reactjs,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
       name: "Node JS",
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Ruby On Rails",
+      icon: rubyOnRails,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "Git",
+      name: "GitHub",
       icon: git,
     },
   ];
