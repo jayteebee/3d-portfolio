@@ -15,6 +15,7 @@ const CV = ({ closeCV }) => {
     <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex justify-center items-center" >
       <div className={`bg-white p-5 rounded-lg max-w-3xl w-full ${styles.padding}  overflow-y-auto max-h-[80vh]`}>
       <button onClick={closeCV} className={`${styles.heroSubText} float-right`} style={{zIndex: 500, position: "relative"}}>Close</button>
+      <a className={`${styles.heroSubText} float-left`} style={{zIndex: 500, position: "relative"}} href={cvPDF} download="Jethro Block - CV.pdf">Download</a>
 
         <Document file={cvPDF}>
             <Page pageNumber={1} />
